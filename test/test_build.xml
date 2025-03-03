@@ -1,0 +1,12 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<B>
+    <Groups>
+        <Group>
+            <groupName>BinutilsBuild</groupName>
+            <executeProcess>
+                <operation>repo_clone</operation>
+                <Url>git://sourceware.org/git/binutils-gdb.git</Url>
+            </executeProcess>
+        </Group>
+    </Groups>
+</B>
