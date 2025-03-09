@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <B>
     <Groups>
         <Group>
@@ -6,6 +6,18 @@
             <executeProcess>
                 <operation>repo_clone</operation>
                 <Url>git://sourceware.org/git/binutils-gdb.git</Url>
+            </executeProcess>
+        </Group>
+        <Group>
+            <!-- set gorup name : It just information. -->
+            <groupName>GetDiffutils</groupName>
+            <executeProcess>
+                <!-- Select Operation -->
+                <operation>get_file</operation>
+                <!-- URL -->
+                <Url>https://ftp.gnu.org/gnu/diffutils/diffutils-3.11.tar.xz</Url>
+                <!-- Output folder -->
+                <output>diffutils-3.11.tar.xz</output>
             </executeProcess>
         </Group>
     </Groups>
